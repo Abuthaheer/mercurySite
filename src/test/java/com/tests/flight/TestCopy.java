@@ -21,6 +21,7 @@ public class HomePageTests {
 		co = new commonObjects();
 	}
 
+
 	@DataProvider(name = "UserDetails")
 	public static Object[][] data() {
 		return new Object[][] { { "Abuthaheer", "test123" }, { "Abuthaheer1", "test1234" } };
