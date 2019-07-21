@@ -21,7 +21,7 @@ public class HomePageTests {
 		co = new commonObjects();
 	}
 
-	@DataProvider(name = "credentials")
+	@DataProvider(name = "details")
 	public static Object[][] data() {
 		return new Object[][] { { "Abuthaheer", "test123" }, { "Abuthaheer1", "test1234" } };
 	}
